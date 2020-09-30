@@ -1,0 +1,8 @@
+import subprocess
+a=int(input("Enter the value of a"))
+while(a<5):
+    subprocess.Popen("python demo3.py",shell=True).communicate()
+    print("ok")
+    break
+else:
+     print("no")
